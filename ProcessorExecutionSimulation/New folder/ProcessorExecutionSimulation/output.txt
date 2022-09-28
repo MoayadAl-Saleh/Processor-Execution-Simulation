@@ -1,0 +1,89 @@
+The Total Simulation Time : 10 .
+
+Completion Times For All Tasks : 
+
+ Task_ID= 1 || Creation_Time= 0 || Requested_Time= 5 || Completion_Time= 7 || Priority=High
+
+ Task_ID= 2 || Creation_Time= 0 || Requested_Time= 5 || Completion_Time= 8 || Priority=High
+
+ Task_ID= 3 || Creation_Time= 1 || Requested_Time= 10 || Completion_Time= 10 || Priority=High
+
+Events For All Cycles : 
+
+Cycle : 0
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 1 || Requested_Time : 5 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 2 || Requested_Time : 5 . 
+
+
+Cycle : 1
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 10 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 2 || Requested_Time : 4 . 
+
+
+Cycle : 2
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 9 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 1 || Requested_Time : 4 . 
+
+
+Cycle : 3
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 8 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 1 || Requested_Time : 3 . 
+
+
+Cycle : 4
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 7 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 2 || Requested_Time : 3 . 
+
+
+Cycle : 5
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 6 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 2 || Requested_Time : 2 . 
+
+
+Cycle : 6
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 5 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 1 || Requested_Time : 2 . 
+
+
+Cycle : 7
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 4 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 1 || Requested_Time : 1 . 
+
+
+Cycle : 8
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 3 . 
+
+Processor ID : 2 || Processor State : busy || Assigned Task ID : 2 || Requested_Time : 1 . 
+
+
+Cycle : 9
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 2 . 
+
+Processor ID : 2 || Processor State : idle || Assigned Task ID : null || Requested_Time : null . 
+
+
+Cycle : 10
+
+Processor ID : 1 || Processor State : busy || Assigned Task ID : 3 || Requested_Time : 1 . 
+
+Processor ID : 2 || Processor State : idle || Assigned Task ID : null || Requested_Time : null . 
+
+
